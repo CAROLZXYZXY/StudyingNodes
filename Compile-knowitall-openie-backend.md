@@ -1,7 +1,7 @@
 ### Run Docker Environment
-> sudo docker pull zxycarol/ubuntu-14:openie-backend  
-> sudo docker run -it zxycarol/ubuntu-14:openie-backend /bin/bash
-> cd /home/xinyi
+> sudo docker pull zxycarol/ubuntu-14:openie-backend   
+> sudo docker run -it zxycarol/ubuntu-14:openie-backend /bin/bash   
+> cd /home/xinyi   
 **Please be careful when running with root user access**  
 
 
@@ -16,10 +16,10 @@
 > sudo apt-get install openjdk-7-jdk
 
 + Install scala 2.9  
-> apt install scala  
+> apt-get install scala  
 
-+ Install Sbt
++ Install Sbt  
 Please follow https://github.com/paulp/sbt-extras  
 
-+ Compilation  
++ Compilation   
 Please follow https://github.com/sbt/sbt-assembly/issues/331  
